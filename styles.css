@@ -23,7 +23,6 @@
     box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.1);
 
 }
-
 .navbar {
     margin: 10px;
     display: flex;
@@ -65,15 +64,63 @@
     position: absolute;
 }
 
-/* bannersection */
-.slides-section {
-    background-image: url("../img/hero4.png");
-    width: 100%;
-    height: 90vh;
-    padding: 0 20px;
-    background-size: cover;
-}
 
+/* slidebanner */
+.slidebar{
+    position: relative;
+}
+.slideContainer{
+    display: none;
+}
+.slide{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.slidecontent{
+    position: absolute;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5%;
+    height: 600px;
+}
+.slideImg{
+    width: 100%;
+}
+.slideImg img{
+    width: 100%;
+    height: 70vh;
+}
+.slideContainer.active{
+display: block;
+}
+#prev,
+#next{
+    position: absolute;
+    top: 50%;
+    font-size: 35px;
+    transform: translateY(-50%) ;
+    width: 40px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+    display: none;
+}
+.slidebar:hover #prev {
+    display: block;
+}
+.slidebar:hover #next {
+    display: block;
+}
+#prev{
+    left: 20px;
+}
+#next{
+    right: 20px;
+}
 /* featuresection */
 .feature {
     padding: 20px;
@@ -225,7 +272,7 @@
 
 /* bannerSection */
 .banner-offer {
-    background-image: url(../img/banner/b2.jpg);
+    background-image: url("https://res.cloudinary.com/denokpulg/image/upload/v1656522854/t-shirt/banner/b2_opkpta.jpg");
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -293,12 +340,12 @@
 }
 
 .banner1-1 {
-    background-image: url("../img/banner/b17.jpg");
+    background-image: url("https://res.cloudinary.com/denokpulg/image/upload/v1656522853/t-shirt/banner/b17_rkykzq.jpg");
 
 }
 
 .banner1-2 {
-    background-image: url("../img/banner/b10.jpg");
+    background-image: url("https://res.cloudinary.com/denokpulg/image/upload/v1656522852/t-shirt/banner/b10_zinfpr.jpg");
 
 }
 
@@ -367,15 +414,15 @@
 }
 
 .banner2-1 {
-    background-image: url("../img/banner/b18.jpg");
+    background-image: url("https://res.cloudinary.com/denokpulg/image/upload/v1656522853/t-shirt/banner/b18_cvspko.jpg");
 }
 
 .banner2-2 {
-    background-image: url("../img/banner/b4.jpg");
+    background-image: url("https://res.cloudinary.com/denokpulg/image/upload/v1656522857/t-shirt/banner/b4_kqihzf.jpg");
 }
 
 .banner2-3 {
-    background-image: url("../img/banner/b7.jpg");
+    background-image: url("https://res.cloudinary.com/denokpulg/image/upload/v1656522855/t-shirt/banner/b7_sx0su0.jpg");
 }
 
 .banner2-box .box:hover {
@@ -504,7 +551,7 @@
 /* shop page */
 
 .shop-section {
-    background-image: url("../img/banner/b1.jpg");
+    background-image: url("https://res.cloudinary.com/denokpulg/image/upload/v1656522852/t-shirt/banner/b1_qx7slj.jpg");
     width: 100%;
     height: 40vh;
     padding: 0 20px;
@@ -601,7 +648,7 @@
 
 /* blog page */
 .blog-section {
-    background-image: url("../img/banner/b19.jpg");
+    background-image: url("https://res.cloudinary.com/denokpulg/image/upload/v1656522859/t-shirt/banner/b19_miblrn.jpg");
     width: 100%;
     height: 40vh;
     padding: 0 20px;
@@ -673,7 +720,7 @@
 
 /* aboutpage */
 .about-section {
-    background-image: url("../img/about/banner.png");
+    background-image: url("https://res.cloudinary.com/denokpulg/image/upload/v1656522860/t-shirt/about/banner_lpnuuu.png");
     width: 100%;
     height: 40vh;
     padding: 0 20px;
@@ -740,7 +787,7 @@
 /* Contact page */
 .contact-section {
 
-    background-image: url("../img/about/banner.png");
+    background-image: url("https://res.cloudinary.com/denokpulg/image/upload/v1656522860/t-shirt/about/banner_lpnuuu.png");
     width: 100%;
     height: 40vh;
     padding: 0 20px;
