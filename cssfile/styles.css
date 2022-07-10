@@ -589,9 +589,9 @@
 /* shop page */
 
 .shop-section {
-    background-image: url("https://res.cloudinary.com/denokpulg/image/upload/v1656522852/t-shirt/banner/b1_qx7slj.jpg");
+    background-image: url("https://res.cloudinary.com/denokpulg/image/upload/v1657469530/t-shirt/banner/women-banner_ofo9kd.jpg");
     width: 100%;
-    height: 40vh;
+    height: 45vh;
     padding: 0 20px;
     background-size: cover;
 }
@@ -606,9 +606,10 @@
 
 .filterProduct {
     margin: 20px;
-    background: grey;
+    background: #fd7776;
     width: 20%;
-    height: 900px;
+height: 900px;
+border-radius:15px ;
 }
 
 .filterProduct input {
@@ -734,12 +735,12 @@
 
 /* blog page */
 .blog-section {
-    background-image: url("https://res.cloudinary.com/denokpulg/image/upload/v1656522859/t-shirt/banner/b19_miblrn.jpg");
+    background-image: url("https://res.cloudinary.com/denokpulg/image/upload/v1657472337/t-shirt/banner/OSC-Spring-Generic-2020-Website-Fashion-Banner-01_ligaug_t4scih.jpg");
     width: 100%;
-    height: 40vh;
+    height: 45vh;
     padding: 0 20px;
     background-size: cover;
-    background-position: center;
+
 }
 
 .blog {
@@ -811,12 +812,12 @@
 
 /* aboutpage */
 .about-section {
-    background-image: url("https://res.cloudinary.com/denokpulg/image/upload/v1656522860/t-shirt/about/banner_lpnuuu.png");
+    background-image: url("https://res.cloudinary.com/denokpulg/image/upload/v1657471261/t-shirt/banner/unnamed_bibk8j.jpg");
     width: 100%;
-    height: 40vh;
+    height: 50vh;
     padding: 0 20px;
     background-size: cover;
-    background-position: center;
+    
 }
 
 .about-head {
@@ -882,7 +883,7 @@
 /* Contact page */
 .contact-section {
 
-    background-image: url("https://res.cloudinary.com/denokpulg/image/upload/v1656522860/t-shirt/about/banner_lpnuuu.png");
+    background-image: url("https://res.cloudinary.com/denokpulg/image/upload/v1657471378/t-shirt/banner/depositphotos_177806526-stock-illustration-black-friday-sale-template-horizontal_mgmecq.jpg");
     width: 100%;
     height: 40vh;
     padding: 0 20px;
