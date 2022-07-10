@@ -28,8 +28,9 @@ let addItem = document.querySelector("#addItem");
 // const cartData = JSON.parse(retriveProductCart);
 // let data;
 // console.log(addItem, addCart);
-var retriveProductCart = localStorage.getItem('cart');
+let retriveProductCart = localStorage.getItem('cart');
 let cartData = JSON.parse(retriveProductCart);
+// console.log(retriveProductCart);
 additem();
 function additem() {
 
@@ -46,7 +47,6 @@ function additem() {
    let image = document.createElement('img');
    let productname = document.createTextNode(`${name}`);
    let prices = document.createTextNode(`${price}`);
-
    let subtotal = document.createTextNode(`${price}`);
    let input = document.createElement('input');
    tr.append(td1, td2, td3, td4, td5, td6);
@@ -67,7 +67,7 @@ function additem() {
    // let total=eval(subtotal*mul);
 
    td6.appendChild(subtotal);
-   console.log(tr);
+   // console.log(tr);
    addItem.append(tr);
 }
 

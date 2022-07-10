@@ -4,7 +4,6 @@ let products = [{
     brand: "Roadster",
     img: 'https://res.cloudinary.com/denokpulg/image/upload/v1656522838/t-shirt/products/n1_gzhokr.jpg',
     desc: "This season set a sporty fashion trend with the HRX Men's Athleisure T-shirt. This striped casual T-shirt can be worn on its own or layered under a jacket or a hoodie.",
-
     price: '535',
 },
 {
@@ -62,8 +61,6 @@ let products = [{
     desc: 'Black and white checked casual shirt, has a mandarin collar, long sleeves, curved hem',
     price: '1545',
 }
-
-
 ]
 
 

@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shop</title>
     <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="mediaquery.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 </head>
 
@@ -21,16 +22,24 @@
                 <li><a href="blog.html">Blog</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
-                <li><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i>
-                        <span>1</span></a></li>
+                <li><a id="cart" href="cart.html"><i class="fa-solid fa-bag-shopping"></i>
+                        <span class="numchange">0</span></a></li>
+                <a href="#" id="closebtn" class="show-close"><i class="fa fa-close"></i></a>
             </ul>
         </nav>
+        <div class="mobile">
+
+            <li><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i>
+                    <span class="numchange">0</span></a></li>
+            <i id="bar" class="fas fa-outdent"> </i>
+        </div>
+
     </header>
     <main class="ShopPage">
         <section class="shop-section">
-            <h1>Products</h1>
+
         </section>
-        <div class="bodyshop">
+        <section class="bodyshop">
             <section class="filterProduct">
                 <div class="form-filter">
                     <input type="text" class="search-input" placeholder="Search...">
@@ -50,7 +59,7 @@
 
 
             </section>
-        </div>
+        </section>
         <section class="newsletter">
             <div class="newstext">
                 <h1>Sign Up For Newsletters</h1>
@@ -61,7 +70,6 @@
                 <button>Signup</button>
             </div>
         </section>
-
     </main>
     <footer class="footer">
         <div class="footer-content">
@@ -103,8 +111,9 @@
         <h6 class="Copyright">Copyright &#169; 2022,Hari Krishna etc- HTML CSS JS Ecommerce Template</h6>
 
     </footer>
-    <script src="./jsfile/allproduct.js"></script>
-    <script src="./jsfile/shop.js"></script>
+    <script src="jsfile/allproduct.js"></script>
+    <script src="jsfile/allnav.js"></script>
+    <script src="jsfile/shop.js"></script>
 </body>
 
 </html>

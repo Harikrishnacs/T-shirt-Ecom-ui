@@ -65,6 +65,16 @@
     position: absolute;
 }
 
+.mobile,
+#closebtn {
+    display: none;
+}
+.mobile li{
+    padding-right:20px;
+}
+.mobile i {
+    font-size: 20px;
+}
 
 /* slidebanner */
 .slidebar {
@@ -571,7 +581,10 @@
 
 }
 
-
+.about-myacc {
+    display: flex;
+    justify-content: space-between;
+}
 
 /* shop page */
 
@@ -730,22 +743,24 @@
 }
 
 .blog {
-  width: 95%;
+    width: 95%;
     margin: 10% auto;
 
 }
 
 .blogBox {
- width: 100%;
+    width: 100%;
     margin: 10% auto;
     display: flex;
     justify-content: space-around;
     position: relative;
 
 }
-.blogImg{
+
+.blogImg {
     width: 50%;
 }
+
 .blogImg img {
     width: 100%;
 
@@ -819,8 +834,12 @@
 
 }
 
+.aboutImg
+{
+    width: 55%;
+}
 .aboutImg img {
-    width: 800px;
+    width: 100%;
     height: 50vh;
     background-position: center;
 
@@ -1113,184 +1132,3 @@
     color: #fff;
 }
 
-
-
-
-
-/* Media queries */
-/* Home page */
-@media only screen and (max-width: 1440px) {
-    .fe-box {
-        width: 250px;
-    }
-
-    .fe-box img {
-        width: 150px;
-    }
-
-    .banner1-box {
-        margin: auto;
-        display: flex;
-        /* justify-content: center; */
-    }
-
-    .banner2-box .box p {
-        color: red;
-        font-size: 15px;
-        font-weight: 500;
-    }
-
-    /* newsletter */
-    .newstext h1 {
-        font-size: 20px;
-    }
-
-    .newstext p {
-        font-size: 12px;
-    }
-
-    /* footer */
-    .company-contact label {
-  
-        padding: 10px;
-        font-size: 16px;
-        line-height: 25px;
-    }
- 
-  
-
-    .company-contact {
-        width: 30%;
-        margin: 0 auto;
-    }
-
-    .company-contact span {
-        font-size: 14px;
-    }
-
-    .aboutus {
-        width: 20%;
-        margin: 0 auto;
-    }
-
-    .aboutus p {
-        font-size: 14px;
-
-    }
-
-    .myAccount {
-        width: 20%;
-        margin: 0 auto;
-    }
-
-    .myAccount p {
-        font-size: 14px;
-
-    }
-
-    .installApp {
-        width: 30%;
-        margin: 0 auto;
-
-    }
-
-    .installApp p {
-        font-size: 14px;
-
-    }
-
-/* blogPage */
-/* .blogImg  {
-    width: 100%;
-}
-.blogImg img {
-    width: 80%;
-    height: 35vh;
-    background-position: center;
-} */
-.blog-details h3 {
-    margin: 20px 0;
-    padding: 10px 0;
-    font-size: 18px;
-}
-}
-@media only screen and (max-width: 950px) {
-
-    .banner1-box .box {
-        width: 49%;
-        height: 30vh;
-        background-size: cover;
-        display: flex;
-        align-items: flex-start;
-        flex-direction: column;
-        justify-content: center;
-        background-position: center;
-        color: #fff;
-    }
-
-    .banner1-box .box p {
-        font-size: 16px;
-        margin-bottom: 5px;
-        margin-left: 10px;
-    }
-    .banner2-box .box {
-        width: 30%;
-        height: 20vh;
-        background-size: cover;
-        margin: 10px;
-        padding: 10px;
-        display: flex;
-        align-items: flex-start;
-        flex-direction: column;
-        justify-content: center;
-        background-position: center center;
-        color: rgb(255, 255, 255);
-        box-shadow: rgb(0 0 0 / 8%) 20px 20px 20px;
-    }
-    .banner2-box .box h1 {
-        font-size: 20px;
-    }
-  /* newsletter */
-  .newstext h1 {
-    font-size: 18px;
-}
-
-.newstext p {
-    font-size: 10px;
-}
-
-    /* footer   */
-    .company-contact label {
-  
-        padding: 10px;
-        font-size: 12px;
-        line-height: 20px;
-    }
-    .footer-content h4 {
-        font-size: 15px;
-    }
-
-    .footer-content h3 {
-        font-size: 15px;
-    }
-
-    .company-contact span {
-        font-size: 12px;
-
-    }
-
-    .aboutus p {
-        font-size: 12px;
-
-    }
-
-    .myAccount p {
-        font-size: 12px;
-
-    }
-
-    .installApp p {
-        font-size: 12px;
-
-    }
-}

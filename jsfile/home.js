@@ -1,10 +1,11 @@
+
 // slidebar in js mode
 let slides = document.querySelectorAll('.slideContainer');
 let nextSlide = document.querySelector('#next');
 let prevSlide = document.querySelector('#prev');
 let index = 0;
 
-// console.log(slides);
+// console.log(slides);````````````
 
 // difference event handling vs event listener 
 function next() {
@@ -12,10 +13,10 @@ function next() {
     index = (index + 1) % slides.length;//douts
     slides[index].classList.add("active");
 }
-setInterval(next, 3000);
-function slide(){
 
-    nextSlide.addEventListener('click', function next() {
+function slide() {
+
+    nextSlide.addEventListener('click', function next1() {
         slides[index].classList.remove("active");
         index = (index + 1) % slides.length;//douts
         slides[index].classList.add("active");
@@ -26,19 +27,22 @@ function slide(){
         slides[index].classList.add("active");
     })
 }
+setInterval(next, 1000);
 slide();
 
 
 
 // newFeatures Product
 let featureProducts = [...products];
-// newArival Product
+// console.log(featureProducts);
+// console.log(products);
+// // newArival Product
 let arivalProducts = [...newProducts];
 const feature = document.querySelector('#featureProducts');
 const arival = document.querySelector('#arivalProducts');
-const displayHomeProduct = () => {
-    feature.innerHTML = featureProducts.map(product => {
-        console.log(product);
+const displayHomeProduct = (data) => {
+    feature.innerHTML = data.map(product => {
+        // console.log(product);
         const { id, name, brand, img, desc, price } = product;
         return `<div class="product-card" onclick="window.location.href ='../shop.html';">
     <img src="${img}" alt="">
@@ -55,10 +59,10 @@ const displayHomeProduct = () => {
         <h4>&#8377; ${price}</h4>
     </div>
     <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
-</div>`});
-    arival.innerHTML=arivalProducts.map(product => {
-         const{id,name,brand,img,desc,price}=product;
-        return`<div class="product-card" onclick="window.location.href ='../shop.html';">
+</div>`}).join(" ");
+    arival.innerHTML = arivalProducts.map(product => {
+        const { id, name, brand, img, desc, price } = product;
+        return `<div class="product-card" onclick="window.location.href ='../shop.html';">
         <img src="${img}" alt="">
         <div class="desc">
             <span>${brand}</span>
@@ -73,6 +77,6 @@ const displayHomeProduct = () => {
             <h4>&#8377; ${price}</h4>
         </div>
         <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
-    </div>`});
+    </div>`}).join(" ");
 }
-displayHomeProduct();
+displayHomeProduct(featureProducts);

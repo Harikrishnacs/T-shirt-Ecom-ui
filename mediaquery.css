@@ -1,0 +1,994 @@
+/* Media queries */
+
+@media only screen and (max-width: 1440px) {
+    .fe-box {
+        width: 250px;
+    }
+
+    .fe-box img {
+        width: 150px;
+    }
+
+    .banner1-box {
+        margin: auto;
+        display: flex;
+        /* justify-content: center; */
+    }
+
+    .banner2-box .box p {
+        color: red;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    /* newsletter */
+    .newstext h1 {
+        font-size: 20px;
+    }
+
+    .newstext p {
+        font-size: 12px;
+    }
+
+    /* footer */
+    .company-contact label {
+
+        padding: 10px;
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+
+
+    .company-contact {
+        width: 30%;
+        margin: 0 auto;
+    }
+
+    .company-contact span {
+        font-size: 14px;
+    }
+
+    .aboutus {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .aboutus p {
+        font-size: 14px;
+
+    }
+
+    .myAccount {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .myAccount p {
+        font-size: 14px;
+
+    }
+
+    .installApp {
+        width: 30%;
+        margin: 0 auto;
+
+    }
+
+    .installApp p {
+        font-size: 14px;
+
+    }
+
+    /* blogPage */
+    /* .blogImg  {
+    width: 100%;
+}
+.blogImg img {
+    width: 80%;
+    height: 35vh;
+    background-position: center;
+} */
+    .blog-details h3 {
+        margin: 20px 0;
+        padding: 10px 0;
+        font-size: 18px;
+    }
+
+    /* aboutusPages */
+
+    .about-details h1 {
+        font-size: 40px;
+        padding: 10px;
+        margin: 10px 0;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .feature-row {
+        width: 80%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        z-index: 0;
+        margin: 0 auto;
+    }
+
+    .slidecontent {
+        position: absolute;
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 7%;
+        font-size: 16px;
+    }
+
+    .fe-box {
+        width: 150px;
+    }
+
+
+    .banner1-box .box {
+        width: 49%;
+        height: 30vh;
+        background-size: cover;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: center;
+        background-position: center;
+        color: #fff;
+    }
+
+    .banner1-box .box p {
+        font-size: 16px;
+        margin-bottom: 5px;
+        margin-left: 10px;
+    }
+
+    .banner2-box .box {
+        width: 30%;
+        height: 20vh;
+        background-size: cover;
+        margin: 10px;
+        padding: 10px;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: center;
+        background-position: center center;
+        color: rgb(255, 255, 255);
+        box-shadow: rgb(0 0 0 / 8%) 20px 20px 20px;
+    }
+
+    .banner2-box .box h1 {
+        font-size: 20px;
+    }
+
+    /* product */
+    .product-card .fa-cart-shopping {
+        font-size: 18px;
+        background: rgb(8, 129, 120);
+        color: rgb(255, 255, 255);
+        display: inline-block;
+        padding: 10px;
+        margin-right: 20px;
+        border-radius: 20px;
+        position: absolute;
+        right: 0px;
+        bottom: 10px;
+    }
+
+    /* newsletter */
+    .newstext h1 {
+        font-size: 18px;
+    }
+
+    .newstext p {
+        font-size: 10px;
+    }
+
+    /* footer   */
+    .company-contact label {
+
+        padding: 10px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .footer-content h4 {
+        font-size: 15px;
+    }
+
+    .footer-content h3 {
+        font-size: 15px;
+    }
+
+    .company-contact span {
+        font-size: 12px;
+
+    }
+
+    .aboutus p {
+        font-size: 12px;
+
+    }
+
+    .myAccount p {
+        font-size: 12px;
+
+    }
+
+    .installApp p {
+        font-size: 12px;
+
+    }
+
+
+    /* shop page */
+    .shop-section {
+        background-image: url(https://res.cloudinary.com/denokpulg/image/upload/v1656522852/t-shirt/banner/b1_qx7slj.jpg);
+        width: 100%;
+        height: 40vh;
+        padding: 0 20px;
+
+    }
+
+    .brand-btn {
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+        padding: 8px;
+        margin: 5px;
+        border: #088178 1px solid;
+        border-radius: 5px;
+    }
+
+    .bodyshop {
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+
+
+    }
+
+    .filterProduct input {
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+        border-radius: 10px;
+        outline: none;
+
+    }
+
+    .filter h4 {
+        display: none;
+    }
+
+    .filterProduct {
+
+        background: #fff;
+        /* width: 100%; */
+        width: 90%;
+        height: 100%;
+        display: inline-block;
+        text-align: center;
+
+    }
+
+    .Brand {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .filter {
+        padding: 10px;
+        margin: 10px;
+        color: rgb(36, 32, 32);
+    }
+
+    .ShopProduct {
+        width: 100%;
+    }
+
+    /* blog Page */
+    .blog-date {
+        font-size: 50px;
+        position: absolute;
+        color: grey;
+        top: -50px;
+        left: 0;
+        z-index: -1;
+    }
+
+    .blog-details h3 {
+        margin: 20px 0;
+        padding: 10px 0;
+        font-size: 16px;
+    }
+
+    .blog-details p {
+        font-size: 14px;
+    }
+
+    .blog-details h4 {
+        font-size: 16px;
+    }
+
+    .blog-details span {
+        width: 70px;
+        height: 3px;
+        position: absolute;
+        background: #000;
+        display: block;
+        left: 160px;
+        bottom: 20px;
+    }
+
+    /* aboutusPages */
+
+    .about-details h1 {
+        font-size: 30px;
+        padding: 10px;
+        margin: 10px 0;
+    }
+
+    .about-details p {
+        line-height: 30px;
+        font-size: 14px;
+    }
+
+    .about-details marquee {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 710px) {
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+        background: #E3E6f3;
+        position: none;
+        z-index: 1;
+        top: 0;
+        box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.1);
+
+    }
+
+    .slidecontent {
+        position: absolute;
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 7%;
+        font-size: 14px;
+        height: 380px;
+    }
+
+    .slideImg img {
+        width: 100%;
+        height: 50vh;
+    }
+
+    .navbar {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 100vh;
+        width: 40%;
+        background: #E3E6f3;
+        padding: 80px 0 0 20px;
+        transition: 0.3s;
+        box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.1);
+        display: none;
+    }
+
+    .navbar li {
+        margin-bottom: 20px;
+
+    }
+
+    #cart {
+        display: none;
+    }
+
+    .show-links {
+        display: block;
+
+    }
+
+    #closebtn {
+        display: block;
+        font-size: 24px;
+        top: 30px;
+        left: 30px;
+        position: absolute;
+    }
+
+    .mobile {
+        display: block;
+        display: flex;
+        align-items: center;
+
+    }
+
+    .product-card {
+        position: relative;
+        cursor: pointer;
+        width: 23%;
+        margin: auto;
+        min-width: 200px;
+        padding: 10px 12px;
+        border-radius: 20px;
+        margin: 15px 10px;
+        transition: 1 ease;
+        box-shadow: 20px 20px 30px rgb(0 0 0 / 2%);
+    }
+
+    .product-card .fa-cart-shopping {
+        font-size: 15px;
+        background: rgb(8, 129, 120);
+        color: rgb(255, 255, 255);
+        display: inline-block;
+        padding: 10px;
+        margin-right: 20px;
+        border-radius: 20px;
+        position: absolute;
+        right: 0px;
+        bottom: 10px;
+    }
+
+    /* banner */
+    .banner1-box {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .banner1-box .box {
+        width: 100%;
+        height: 30vh;
+        background-size: cover;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: center;
+        background-position: center;
+        color: #fff;
+        margin: 10px 0;
+    }
+
+    .banner2-box {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .banner2-box .box {
+        width: 100%;
+        height: 30vh;
+        background-size: cover;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: center;
+        background-position: center;
+        color: #fff;
+        margin: 10px 0;
+    }
+
+    /* newsletter */
+    .newsletter {
+        background: rgb(24, 3, 107);
+        color: rgb(255, 255, 255);
+        padding: 10px;
+        display: flex;
+        justify-content: flex-start;
+        width: 100%;
+        flex-direction: column;
+        margin: 10px 0px;
+        height: 25vh;
+    }
+
+    .newstext {
+        width: 100%;
+        margin: 10px;
+
+    }
+
+    .newstext h1 {
+        font-size: 22px;
+
+    }
+
+
+    .newstext p {
+        font-size: 14px;
+    }
+
+    .form {
+        width: 100%;
+        display: flex;
+        margin: 0 auto;
+
+    }
+
+
+    /* footer */
+
+    .footer-content {
+        width: 90%;
+        margin: 0px auto;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+
+    }
+
+    .company-contact {
+        width: 100%;
+
+    }
+
+    .company-contact span {
+        font-size: 16px;
+    }
+
+    .aboutus {
+        width: 50%;
+        margin: 0;
+
+    }
+
+    .aboutus p {
+        font-size: 16px;
+
+    }
+
+    .myAccount {
+        width: 50%;
+        margin: 0;
+
+
+    }
+
+    .myAccount p {
+        font-size: 16px;
+
+    }
+
+    .installApp {
+        width: 100%;
+        margin: 0;
+
+    }
+
+    .installApp p {
+        font-size: 16px;
+
+    }
+
+    .footer-content h4 {
+        font-size: 20px;
+    }
+
+    .company-contact img {
+
+        width: 200px;
+    }
+
+    /* blog Page */
+
+    .blogBox {
+        width: 100%;
+        margin: 10% auto;
+        display: block;
+        justify-content: space-around;
+        position: relative;
+    }
+
+    .blogImg {
+
+        width: 100%;
+    }
+
+    .blog-details {
+        width: 100%;
+        line-height: 25px;
+    }
+
+    .blog-date {
+        font-size: 50px;
+        position: absolute;
+        color: grey;
+        top: -50px;
+        left: 0;
+        z-index: -1;
+    }
+
+    .blog-details h3 {
+        margin: 20px 0;
+        padding: 10px 0;
+        font-size: 22px;
+    }
+
+    .blog-details p {
+        font-size: 18px;
+    }
+
+    .blog-details h4 {
+        font-size: 20px;
+    }
+
+    .blog-details span {
+        width: 100px;
+        height: 3px;
+        position: absolute;
+        background: #000;
+        display: block;
+        left: 200px;
+        bottom: 20px;
+    }
+
+    /* aboutusPages */
+    .aboutBox {
+        display: block;
+        justify-content: space-between;
+        position: relative;
+    }
+
+    .aboutImg {
+        width: 100%;
+    }
+
+    .aboutImg img {
+        width: 100%;
+        height: 50vh;
+        background-position: center;
+
+    }
+
+    .about-details {
+        width: 100%;
+        line-height: 25px;
+
+    }
+
+    .about-details h1 {
+        font-size: 60px;
+        padding: 10px;
+        margin: 10px 0;
+    }
+
+    .about-details p {
+        line-height: 30px;
+    }
+
+    .about-app {
+        text-align: center;
+        margin: 20px;
+    }
+
+    .about-app .video {
+        width: 70%;
+        height: 100%;
+        margin: 30px auto 0 auto;
+    }
+
+    .about-app .video video {
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .header {
+        display: block;
+        position: relative;
+    }
+
+    .navbar {
+        margin-top: 30px;
+        display: block;
+        overflow: hidden;
+        background: #E3E6f3;
+        transition: 0.3s;
+        height: 14.5rem;
+        position: absolute;
+        top: -300px;
+        right: none;
+        width: 100%;
+        padding: 10px 25px;
+        transition: 0.3s;
+        box-shadow: none !important;
+    }
+
+    .show-links {
+        top: 50px;
+    }
+
+    .navbar li {
+        padding: 0 20px;
+        list-style: none;
+
+    }
+
+    #closebtn {
+        display: none;
+    }
+
+    .mobile {
+        position: absolute;
+        top: 30px;
+        right: 0;
+    }
+
+
+    .mobile a {
+        font-size: 20px;
+
+    }
+
+    #bar {
+        padding-right: 10px;
+
+    }
+
+    .navbar a:hover::after,
+    .navbar a.active::after {
+        content: "";
+        width: 8%;
+        height: 3px;
+        background: #088178;
+        bottom: -4px;
+        left: 20px;
+        position: absolute;
+    }
+
+    .banner-offer {
+        background-image: url(https://res.cloudinary.com/denokpulg/image/upload/v1656522854/t-shirt/banner/b2_opkpta.jpg);
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 40vh;
+        color: #fff;
+        width: 100%;
+    }
+
+    .brand-btn {
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+        padding: 10px;
+        font-size: 14px;
+
+    }
+
+    .feature-row {
+        width: 80%;
+        display: block;
+        flex-wrap: nowrap;
+        z-index: 0;
+        margin: 0 auto;
+    }
+
+
+    .product-card {
+        position: relative;
+        cursor: pointer;
+        width: 100%;
+        margin: auto;
+        min-width: 200px;
+        padding: 10px 12px;
+        border-radius: 20px;
+        margin: 15px 10px;
+        transition: 1 ease;
+        box-shadow: 20px 20px 30px rgb(0 0 0 / 2%);
+    }
+
+    /* blog Page */
+
+    .blogBox {
+        width: 100%;
+        margin: 10% auto;
+        display: block;
+        justify-content: space-around;
+        position: relative;
+    }
+
+    .blogImg {
+
+        width: 100%;
+    }
+
+    .blog-details {
+        width: 100%;
+        line-height: 25px;
+    }
+
+    .blog-date {
+        font-size: 40px;
+        position: absolute;
+        color: grey;
+        top: -40px;
+        left: 0;
+        z-index: -1;
+    }
+
+    .blog-details h3 {
+        margin: 20px 0;
+        padding: 10px 0;
+        font-size: 18px;
+    }
+
+    .blog-details p {
+        font-size: 16px;
+    }
+
+    .blog-details h4 {
+        font-size: 18px;
+    }
+
+    .blog-details span {
+        width: 80px;
+        height: 3px;
+        position: absolute;
+        background: #000;
+        display: block;
+        left: 180px;
+        bottom: 20px;
+    }
+
+    .aboutImg {
+        width: 100%;
+    }
+
+    .aboutImg img {
+        width: 100%;
+        height: 50vh;
+        background-position: center;
+
+    }
+
+    .about-details {
+        width: 100%;
+        line-height: 25px;
+
+    }
+
+    .about-details h1 {
+        font-size: 30px;
+        padding: 10px;
+        margin: 10px 0;
+    }
+
+    .about-details p {
+        line-height: 30px;
+        font-size: 14px;
+    }
+    .about-details marquee {
+    
+        font-size: 14px;
+    }
+
+    .about-app {
+        text-align: center;
+        margin: 20px;
+    }
+
+   
+}
+@media only screen and (max-width: 350px){
+    .slidecontent p{
+        font-size: 10px;
+    }
+    .fe-box img {
+        width: 80px;
+    }
+    .feature-products h1 {
+        text-align: center;
+        margin: 20px;
+        font-size: 12px;
+    }
+    .product-card {
+        position: relative;
+        cursor: pointer;
+        width: 100%;
+        margin: auto;
+        /* min-width: 200px; */
+        /* padding: 10px 12px; */
+        border-radius: 20px;
+        /* margin: 15px 10px; */
+        transition: 1 ease;
+        box-shadow: 20px 20px 30px rgb(0 0 0 / 2%);
+    }
+    .banner-offer h2 {
+        font-size: 10px;
+    }
+    .banner-offer h4 {
+        font-size: 10px;
+    }
+    .banner-offer a {
+        text-decoration: none;
+        color: #fff;
+        padding: 10px;
+        font-size: 10px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        background: red;
+        display: block;
+        transition: 0.5 ease;
+        box-shadow: 20px 20px 30px rgb(0 0 0 / 1%);
+    }
+    .banner1-box .box h1 {
+        font-size: 16px;
+        margin-bottom: 5px;
+        margin-left: 10px;
+    }
+    .banner1-box .box p {
+        font-size: 10px;
+        margin-bottom: 5px;
+        margin-left: 10px;
+    }
+    .banner1-box .box a {
+        text-decoration: none;
+        color: #fff;
+        border: 1px solid #fff;
+        padding: 0px;
+        text-align: center;
+        margin: 10px 0 0 30px;
+    }
+    .banner2-box .box h1 {
+        font-size: 16px;
+    }
+    .banner2-box .box p {
+        color: red;
+        font-size: 10px;
+        font-weight: 500;
+    }
+    /* newsletter */
+    .newstext h1 {
+        font-size: 14px;
+    }
+    .newstext p {
+        font-size: 10px;
+    }
+    .form input {
+        padding: 8px;
+        width: 80%;
+        outline: none;
+        font-size: 10px;
+    }
+    .form button {
+        margin-right: 5px;
+        padding: 8px;
+        outline: none;
+        font-size: 12px;
+        white-space: nowrap;
+        background: #088178;
+        border: #088178;
+        color: #fff;
+    }
+}

@@ -36,6 +36,9 @@ const displayShopProduct = () => {
 };
 
 displayShopProduct();
+
+
+
 // filter
 const form = document.querySelector('.form');
 const searchInput = document.querySelector('.search-input');

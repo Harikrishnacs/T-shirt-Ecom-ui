@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shop</title>
     <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="mediaquery.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 </head>
 
@@ -21,11 +22,17 @@
                 <li><a href="blog.html">Blog</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
-                <li><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i>
+                <li><a id="cart" href="cart.html"><i class="fa-solid fa-bag-shopping"></i>
                         <span class="numchange">0</span></a></li>
+                <a href="#" id="closebtn" class="show-close"><i class="fa fa-close"></i></a>
             </ul>
         </nav>
+        <div class="mobile">
 
+            <li><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i>
+                    <span class="numchange">0</span></a></li>
+            <i id="bar" class="fas fa-outdent"> </i>
+        </div>
 
     </header>
     <main>
@@ -67,145 +74,6 @@
 
             </div>
         </section>
-
-
-
-        <!-- <section class="feature-products arrivalSection">
-           
-            <div class="feature-row">
-                <div class="product-card">
-                    <img src="../img/products/n1.jpg" alt="">
-                    <div class="desc">
-                        <span>adidas</span>
-                        <h5>Cartoon Astronaut T-Shirt</h5>
-                        <div class="star">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                        <h4>&#8377; 885</h4>
-                    </div>
-                    <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
-                </div>
-                <div class="product-card">
-                    <img src="../img/products/n2.jpg" alt="">
-                    <div class="desc">
-                        <span>adidas</span>
-                        <h5>Cartoon Astronaut T-Shirt</h5>
-                        <div class="star">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                        <h4>&#8377; 885</h4>
-                    </div>
-                    <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
-                </div>
-                <div class="product-card">
-                    <img src="../img/products/n3.jpg" alt="">
-                    <div class="desc">
-                        <span>adidas</span>
-                        <h5>Cartoon Astronaut T-Shirt</h5>
-                        <div class="star">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                        <h4>&#8377; 885</h4>
-                    </div>
-                    <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
-                </div>
-                <div class="product-card">
-                    <img src="../img/products/n4.jpg" alt="">
-                    <div class="desc">
-                        <span>adidas</span>
-                        <h5>Cartoon Astronaut T-Shirt</h5>
-                        <div class="star">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                        <h4>&#8377; 885</h4>
-                    </div>
-                    <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
-                </div>
-                <div class="product-card">
-                    <img src="../img/products/n5.jpg" alt="">
-                    <div class="desc">
-                        <span>adidas</span>
-                        <h5>Cartoon Astronaut T-Shirt</h5>
-                        <div class="star">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                        <h4>&#8377; 885</h4>
-                    </div>
-                    <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
-                </div>
-                <div class="product-card">
-                    <img src="../img/products/n6.jpg" alt="">
-                    <div class="desc">
-                        <span>adidas</span>
-                        <h5>Cartoon Astronaut T-Shirt</h5>
-                        <div class="star">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                        <h4>&#8377; 885</h4>
-                    </div>
-                    <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
-                </div>
-                <div class="product-card">
-                    <img src="../img/products/n7.jpg" alt="">
-                    <div class="desc">
-                        <span>adidas</span>
-                        <h5>Cartoon Astronaut T-Shirt</h5>
-                        <div class="star">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                        <h4>&#8377; 885</h4>
-                    </div>
-                    <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
-                </div>
-                <div class="product-card">
-                    <img src="../img/products/n8.jpg" alt="">
-                    <div class="desc">
-                        <span>adidas</span>
-                        <h5>Cartoon Astronaut T-Shirt</h5>
-                        <div class="star">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                        <h4>&#8377; 885</h4>
-                    </div>
-                    <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
-                </div>
-            </div>
-        </section>
-        -->
-
-
     </main>
     <footer class="footer">
         <div class="footer-content">
@@ -245,14 +113,11 @@
             </div>
         </div>
         <h6 class="Copyright">Copyright &#169; 2022,Hari Krishna etc- HTML CSS JS Ecommerce Template</h6>
-
     </footer>
-    <script src="./jsfile/allproduct.js"></script>
-    <script src="./jsfile/cart.js"></script>
-    <script src="../jsfile/sproduct.js"></script>
-
-
-
+    <script src="jsfile/allproduct.js"></script>
+    <script src="jsfile/allnav.js"></script>
+    <script src="jsfile/cart.js"></script>
+    <script src="jsfile/sproduct.js"></script>
 </body>
 
 </html>

@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="mediaquery.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 </head>
 
@@ -14,22 +15,28 @@
     <header class="header">
         <a href="#"> <img src="https://res.cloudinary.com/denokpulg/image/upload/v1656522839/t-shirt/logo_v7nwu0.png" alt=""></a>
         <nav>
-            <ul class="navbar">
+            <ul class="navbar" >
                 <li><a  href="home.html">Home</a></li>
                 <li><a href="shop.html">Shop</a></li>
                 <li><a href="blog.html">Blog</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a class="active" href="contact.html">Contact</a></li>
-                <li><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i>
-                    <span class="numchange"></span></a></li>
+                <li><a id="cart" href="cart.html"><i class="fa-solid fa-bag-shopping"></i>
+                    <span class="numchange">0</span></a></li>
+                    <a href="#" id="closebtn" class="show-close"><i class="fa fa-close"></i></a>
             </ul>
         </nav>
-
-
+        <div class="mobile">
+           
+            <li><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i>
+                <span class="numchange">0</span></a></li>
+                <i id="bar" class="fas fa-outdent"> </i>
+        </div>
+    
     </header>
-    <main>
+    <main class="ContactPage">
         <section class="contact-section">
-            <h1>Products</h1>
+        
         </section>
         <section class="contact-head">
             <div class="contactBox">
@@ -142,7 +149,7 @@
         <h6 class="Copyright">Copyright &#169; 2022,Hari Krishna etc- HTML CSS JS Ecommerce Template</h6>
 
     </footer>
-    <script src="../jsfile/script.js"> </script>
+    <script src="jsfile/allnav.js"></script>
 
 </body>
 
