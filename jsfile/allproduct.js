@@ -189,7 +189,8 @@ productData = [{
     img: 'https://res.cloudinary.com/denokpulg/image/upload/v1656522838/t-shirt/products/n7_b3ln1c.jpg',
     desc: 'Black and white checked casual shirt, has a mandarin collar, long sleeves, curved hem',
     price: '475',
-}, {
+},
+ {
     id: '8',
     name: 'U.S.Polo',
     brand: "Roadster",

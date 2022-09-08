@@ -40,7 +40,8 @@ displayShopProduct();
 
 
 // filter
-const form = document.querySelector('.form');
+const form = document.querySelector('.form-filter');
+console.log(form);
 const searchInput = document.querySelector('.search-input');
 
 form.addEventListener('keyup', () => {
